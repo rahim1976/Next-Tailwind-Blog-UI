@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
+    domains: ['www.creative-tim.com'],
     remotePatterns: [
       {
         protocol: 'https', // Use 'http' if the images are served over HTTP
